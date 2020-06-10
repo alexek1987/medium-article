@@ -1,0 +1,81 @@
+body{
+  background: rgb(245,245,245);
+  color: rgb(20, 20, 20);
+  font-family:  'Roboto', sans-serif;
+}
+h1{
+  font-family:  'Roboto', sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-family:  'Roboto', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 35px;
+  text-align: center;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(114,101,130,0.4), rgba(114,101,130,0.4));
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  font-style: italic;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(114,101,130,0.4), rgba(114,101,130,0.4));}
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
